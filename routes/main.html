@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../menu.css">
+
+    <title>Trang chủ</title>
+</head>
+
+<body>
+    <div id="root">
+        <div id="header">
+            <div id="logo-header">
+                <a href="main.html" title="Logo">
+                    <img src="../public/assets/favicon.png" href="#" alt="logo">
+                </a>
+            </div>
+            <nav id="navMenu">
+                <ul>
+                    <li>
+                        <a href="đề_ôn.html" title="Đề ôn">Đề ôn</a>
+                    </li>
+                    <li>
+                        <a href="" title="Tài liệu tham khảo">Tài liệu</a>
+                        <ul>
+                            <li>
+                                <a href="" title="">kHOA HOC HTML CO BAN</a>
+                                <ul>
+                                    <li>
+                                        <a href="" title="">HTML</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">JAVA CO BAN</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">FFF</a>
+                                    </li>
+
+                                     
+                                     
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="" title="">KHOA PHP</a>
+                                <ul>
+                                    <li>
+                                        <a href=""title="">PHP CO BAN</a>
+                                    </li>
+                                    <li>
+                                        <a href=""title="">PHP NANG CAO</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">LARAVEL</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href=""title="">KHOA jAVA </a>
+                                <ul>
+                                    <li>
+                                        <a href="" title="">JAVA CO BAN</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">JAVA NANG CAO</a>
+                                    </li>
+                                    <li>
+                                        <a href="" title="">SPRING TRONG JAVA</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="kết_quả.html" title="Kết quả">Kết quả</a>
+                    </li>
+                    <li>
+                        <a href="liên_hệ.html" title="Liên hệ">Liên hệ</a>
+                    </li>
+                </ul>
+            </nav>
+            <div id="logout_container">
+                <div id="btnAvatar">
+                    <div id="avatar">
+                        <div class="drop">
+                            <div class="drop_container">
+                                <a href="profile.html">Thông tin cá nhân</a>
+                                <a href="../index.html">Đăng xuất</a>
+                            </div>
+                        </div>
+                    </div>
+                    <p id="name"></p>
+                </div>
+            </div>
+               
+        </div>
+
+        <!-- <div id="main">
+            <section id="banner">
+                <div id="bannerLeft">
+                    <div id="News">
+                        <div class="NewsContainer">
+                            <div class="NewsRow" >
+                                <div class="s">
+                                    <a href="https://vnexpress.net/tin-tuc-24h">
+                                    <div class="NewsCard">
+                                        <img class="imgNews" src="https://i1-vnexpress.vnecdn.net/2022/07/25/anh-1-8207-1658735918-16587359-1869-4455-1658735979.jpg?w=300&h=180&q=100&dpr=1&fit=crop&s=AGqCbYFljOH1dgkxn3oiig">
+                                        <div class="WrapNewsDescription">
+                                            Một lớp chuyên Anh có hai thủ khoa khối tự nhiên
+                                            Thủ khoa khối A01 Lò Hải Long và khối B00 Nguyễn Đăng Khải đều là học sinh lớp chuyên Anh 12A1 của trường THPT chuyên Ngoại ngữ, Đại học Quốc gia Hà Nội.
+                                        </div>
+                                    </div>
+                                    </a>
+                                    <a href="https://vnexpress.net/tin-tuc-24h">
+                                    <div class="NewsCard">
+                                        <img class="imgNews" src="https://i1-vnexpress.vnecdn.net/2022/07/25/hp-2-8094-1658738208-165874200-9126-7151-1658742016.png?w=300&h=180&q=100&dpr=1&fit=crop&s=j1ruDVbgYH5SxIwNm9ySIg">
+                                        <div class="WrapNewsDescription">
+                                            Lớp học 100% học sinh đạt điểm giỏi môn Văn
+                                            Toàn bộ 50 học sinh lớp 12C4, trường THPT Quang Trung, huyện Thủy Nguyên, đạt điểm môn Văn từ 8,25, trong đó 40 em đạt từ 9 trong kỳ thi tốt nghiệp THPT.
+                                        </div>
+                                    </div>
+                                    </a>
+                                    <a href="https://vnexpress.net/tin-tuc-24h">
+                                    <div class="NewsCard">
+                                        <img class="imgNews" src="https://i1-vnexpress.vnecdn.net/2022/07/25/thukhoado1-1658726040-4128-1658726064.jpg?w=300&h=180&q=100&dpr=1&fit=crop&s=VMzv2gJZq8W5wwVnGskovQ">
+                                        <div class="WrapNewsDescription">
+                                            Nữ sinh không tin mình là thủ khoa khối D01
+                                            Được bạn nhắn tin chúc mừng đạt thủ khoa toàn quốc khối D01, Đặng Thị Khánh Linh nói "rất hoang mang", vì nghĩ còn có người cao điểm hơn.
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                           
+                            <hr width="50%" size="2px" style="align-self:center;" color="black" />
+
+                            <div class="NewsRow">
+                                <div class="s">
+                                    <a href="https://tuyensinh247.com/">
+                                    <div class="NewsCard">
+                                        <img class="imgNews" src="https://toplist.vn/images/800px/tuyensinh247com-479391.jpg">
+                                        <div class="WrapNewsDescription">
+                                           Tuyensinh247.com
+                                           Tuyensinh247.com là website học tập trực tuyến được phần lớn các bạn học sinh lựa chọn và tin tưởng theo học. Tuyensinh247.com cung cấp đến các bạn những bài giảng của những giáo viên giỏi, cùng những tư vấn hết sức chính xác về thông tin tuyển sinh.
+                                        </div>
+                                    </div>
+                                    </a>
+                                    <a href="https://hocmai.vn/">
+                                    <div class="NewsCard">
+                                        <img class="imgNews" src="https://toplist.vn/images/800px/hocmaivn-158647.jpg">
+                                        <div class="WrapNewsDescription">
+                                            Hocmai.vn<br>
+                                            Hocmai.vn có một ngân hàng bài giảng đa dạng, sinh động, bám sát cấu trúc đề thi. Đội ngũ giáo viên dồi dào kinh nghiệm, thân thiện và cam kết giải đáp thắc mắc liên quan đến bài của các bạn trong thời gian sớm nhất.
+                                        </div>
+                                    </div>
+                                    </a>
+                                    <a href="https://moon.vn/">
+                                    <div class="NewsCard">
+                                        <img class="imgNews" src="https://toplist.vn/images/800px/moonvn-479395.jpg">
+                                        <div class="WrapNewsDescription">
+                                            Moon.vn<br>
+                                            Moon.vn là một trang web luyện thi online được rất nhiều bạn trẻ lựa chọn theo học, với hệ thống những bài giảng, các bài tập luyện thi của Moon.vn rất đa dạng, chất lượng tốt, cập nhật nhanh chóng, được xây dựng bởi đội ngũ giáo viên giỏi và đầy kinh nghiệm.
+                                        </div>
+                                    </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> 
+                <div id="bannerRight">
+                    <div class="container">
+                        <div id="groupImg1">
+
+                        </div>
+                        <div id="groupImg2">
+                            <div id="groupImg2_img1">
+                              
+                            </div>
+                            <div id="groupImg2_img2">
+                              
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <section id="sectionTracNghiem" class="sections">
+                <div class="titleTracNghiem">
+                    <div class="Ngẫu-Nhiên">
+                        <h3 class="backgroundTitle">Ngẫu nhiên</h3>
+                        <h3 class="textTitle">Trắc nghiệm ngẫu nhiên</h3>
+                    </div>
+                    <p>Đề thi được tạo ngẫu nhiên từ kho câu hỏi theo danh mục mà bạn lựa chọn</p>
+                </div>
+                <div class="titleContainer">
+                    <div class="divWrapCategory">
+                        <div class="card">
+                            <div class="divCategoryContainer">
+                                <div class="cardleft">
+                                    <div class="divImg">
+                                        <img class="imgCategory" src="../public/assets/anh2.jpg">
+                                    </div>
+                                    <div class="divInfoCategory">
+                                        <h5 class="nameCategory">Toán</h5>
+                                        <p class="amountQuestion">( 50 câu hỏi )</p>
+                                    </div>
+                                </div>
+                                <div class="cardright">
+                                    <div class="button-category">
+                                        <a>Bắt đầu</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="divCategoryContainer">
+                                <div class="cardleft">
+                                    <div class="divImg">
+                                        <img class="imgCategory" src="../public/assets/anh2.jpg">
+                                    </div>
+                                    <div class="divInfoCategory">
+                                        <h5 class="nameCategory">Văn</h5>
+                                        <p class="amountQuestion">( 50 câu hỏi )</p>
+                                    </div>
+                                </div>
+                                <div class="cardright">
+                                    <div class="button-category">
+                                        <a>Bắt đầu</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="divCategoryContainer">
+                                <div class="cardleft">
+                                    <div class="divImg">
+                                        <img class="imgCategory" src="../public/assets/anh2.jpg">
+                                    </div>
+                                    <div class="divInfoCategory">
+                                        <h5 class="nameCategory"> Tiếng anh</h5>
+                                        <p class="amountQuestion">( 50 câu hỏi )</p>
+                                    </div>
+                                </div>
+                                <div class="cardright">
+                                    <div class="button-category">
+                                        <a>Bắt đầu</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="divCategoryContainer">
+                                <div class="cardleft">
+                                    <div class="divImg">
+                                        <img class="imgCategory" src="../public/assets/anh2.jpg">
+                                    </div>
+                                    <div class="divInfoCategory">
+                                        <h5 class="nameCategory">Hóa học</h5>
+                                        <p class="amountQuestion">( 50 câu hỏi )</p>
+                                    </div>
+                                </div>
+                                <div class="cardright">
+                                    <div class="button-category">
+                                        <a>Bắt đầu</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="divCategoryContainer">
+                                <div class="cardleft">
+                                    <div class="divImg">
+                                        <img class="imgCategory" src="../public/assets/anh2.jpg">
+                                    </div>
+                                    <div class="divInfoCategory">
+                                        <h5 class="nameCategory">Vật lý</h5>
+                                        <p class="amountQuestion">( 50 câu hỏi )</p>
+                                    </div>
+                                </div>
+                                <div class="cardright">
+                                    <div class="button-category">
+                                        <a>Bắt đầu</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="divCategoryContainer">
+                                <div class="cardleft">
+                                    <div class="divImg">
+                                        <img class="imgCategory" src="../public/assets/anh2.jpg">
+                                    </div>
+                                    <div class="divInfoCategory">
+                                        <h5 class="nameCategory">Sinh học</h5>
+                                        <p class="amountQuestion">( 50 câu hỏi )</p>
+                                    </div>
+                                </div>
+                                <div class="cardright">
+                                    <div class="button-category">
+                                        <a>Bắt đầu</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="divCategoryContainer">
+                                <div class="cardleft">
+                                    <div class="divImg">
+                                        <img class="imgCategory" src="../public/assets/anh2.jpg">
+                                    </div>
+                                    <div class="divInfoCategory">
+                                        <h5 class="nameCategory">Lịch sử</h5>
+                                        <p class="amountQuestion">( 50 câu hỏi )</p>
+                                    </div>
+                                </div>
+                                <div class="cardright">
+                                    <div class="button-category">
+                                        <a>Bắt đầu</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="divCategoryContainer">
+                                <div class="cardleft">
+                                    <div class="divImg">
+                                        <img class="imgCategory" src="../public/assets/anh2.jpg">
+                                    </div>
+                                    <div class="divInfoCategory">
+                                        <h5 class="nameCategory">Địa lý</h5>
+                                        <p class="amountQuestion">( 50 câu hỏi )</p>
+                                    </div>
+                                </div>
+                                <div class="cardright">
+                                    <div class="button-category">
+                                        <a>Bắt đầu</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="divCategoryContainer">
+                                <div class="cardleft">
+                                    <div class="divImg">
+                                        <img class="imgCategory" src="../public/assets/anh2.jpg">
+                                    </div>
+                                    <div class="divInfoCategory">
+                                        <h5 class="nameCategory">GDCD</h5>
+                                        <p class="amountQuestion">( 50 câu hỏi )</p>
+                                    </div>
+                                </div>
+                                <div class="cardright">
+                                    <div class="button-category">
+                                        <a>Bắt đầu</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </section> -->
+            <footer></footer>
+        </div>
+
+       
+    </div>
+     <script src="../menu.js"></script>
+</body>
+
+</html>

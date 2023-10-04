@@ -1,0 +1,204 @@
+/*======================Header======================*/
+
+#header {
+    width: 100%;
+    height: 50px;
+    display: flex;   
+    justify-content: flex-start;
+    background: rgb(17, 16, 16);
+    position: fixed;
+    z-index: 10;
+}
+/*============_logo-header_============*/
+#logo-header {
+    margin-left: 20px;
+    margin-right: 10px;
+    display:flex;
+    align-items:center;
+    height: 50px;
+}
+#logo-header    img {
+    width:50px;
+    height:50px;
+}
+
+
+/*============_Menu_============*/
+#navMenu{
+    width: 30%;
+    
+}
+#navMenu ul{
+    display: flex;/* khung */
+    flex-direction: row;
+    justify-content:space-evenly;
+    height: 50px;
+    
+}
+#navMenu ul ul{
+    display: none;
+    flex-direction: column;
+    margin-top:45px;/*canh với line-height của thẻ a*/ 
+   
+}
+
+#navMenu ul ul li{
+    position: relative;
+    top:0;
+}
+#navMenu ul ul li ul{
+    display:none;
+    position:absolute;
+    left:100%;
+}
+#navMenu ul li{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+#navMenu ul li a{
+    line-height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+#navMenu ul li ul li{
+    border-radius: 5px;
+
+}
+#navMenu ul li ul li a{
+    border-radius: 5px;
+    background: rgba(229,231,235);
+}
+#navMenu ul li ul li ul li{
+    width: 100px;/* menu cấp 3 riêng biệt nên tự set height*/
+}
+#navMenu ul li ul li ul li a{
+    border-radius: 5px;
+    background: rgba(229,231,235);
+}
+
+#navMenu ul a:hover ~ ul{
+    display: flex;
+}
+#navMenu ul:hover{
+    display: flex;
+}
+
+
+#navMenu ul li a:hover{
+    background:rgb(0, 114, 23);
+    border-radius: 5px;
+   
+    transition: all 0.4s ease-in;
+}
+
+#navMenu ul li ul li a:hover{
+    background:rgb(0, 85, 37);
+    border-radius: 5px;
+   
+    transition: all 0.4s ease-in;
+}
+/* css lại cho từng cái menu cấp 3 vì nó là position abosulute;*/
+
+#navMenu ul li ul li:first-child a:hover ~ul{
+    margin-top:50px;
+}
+#navMenu ul li ul li:first-child ul:hover{
+    margin-top:50px;
+}
+
+#navMenu ul li ul li:nth-child(2) a:hover ~ul{
+    margin-top:50px;
+}
+#navMenu ul li ul li:nth-child(2) ul:hover{
+    margin-top:50px;
+}
+#navMenu ul li ul li:nth-child(3) a:hover ~ul{
+    margin-top:50px;
+}
+#navMenu ul li ul li:nth-child(3) ul:hover{
+    margin-top:50px;
+}
+
+
+
+/*============_Menu_============*/
+
+
+#logout_container{
+    display:flex;
+    align-items:center;
+    margin-left: 640px;
+}
+#btnAvatar{
+    display:flex;
+    flex-grow: 1;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    border-radius: 20px;    
+    padding:5px;
+}
+#btnAvatar > p{
+    color: white;
+    font-size: 14px;
+    margin-left: 5px;
+    position: relative;
+    user-select: none;
+   
+}
+#avatar{
+    display:flex;
+    height: 30px;
+    width: 30px;
+    background:red;
+    border-radius: 50%;
+    background-image: url('./public/assets/ava.jfif');
+    background-size: cover;
+}
+#btnAvatar:hover{
+    cursor: pointer;
+    background: rgba(148, 148, 150, 0.781);
+}
+
+.drop{
+    display:none;
+    background: rgba(114, 108, 108, 0.795);
+    position:absolute;
+    top:50px;
+    border-color: rgb(229 231 235);
+    border-radius: 6px;  
+    background-color: rgba(75, 85, 99, 0.603)
+}
+.drop_container{
+    width: 200px;
+    padding: 10px;
+}
+.drop a{
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding:5px
+    
+}
+.drop a:hover {
+    background: rgba(114, 108, 108, 0.795);
+}
+#logout_container:hover  .drop{
+    display: flex;
+}
+
+#logout_container:hover  #btnAvatar{
+    display: flex;
+    cursor: pointer;
+    background: rgba(148, 148, 150, 0.781);
+}
+#btnAvatar:hover .drop{
+    display: flex;
+}
+
+
+
+/*======================Header======================*/

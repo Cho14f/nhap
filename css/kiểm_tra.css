@@ -1,0 +1,116 @@
+*,body{
+    font-family:Tahoma,Arial,sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+#main{
+    padding-top:50px
+}
+
+.container{
+    min-height: 100vh;
+    padding:50px;
+    display: flex;
+    flex-direction: row;
+}
+#containerLeft{
+    flex-grow:1;
+    width:70%;
+    padding:20px;  
+}
+#containerRight{
+    flex-grow:1;
+    width:30%;
+    padding:20px;
+    display: flex;
+    flex-direction: column
+}
+#view{
+    display:flex;
+    flex-direction:column
+}
+#view td{
+    width: 400px;
+}
+.divQuestion{
+    height:150px;
+}
+.divButton{
+    display: flex;
+    flex-direction: row;
+    justify-content:center
+}
+.divButton>input{
+    margin:5px;
+    padding:5px;
+    cursor: pointer;
+}
+.divButtonAnswer{
+    display: flex;
+    flex-direction: row;
+    justify-content:center
+}
+.divButtonAnswer>div{
+    margin: 5px;
+}
+.divButtonAnswer>div >input{
+    margin: 5px;
+}
+.WrapQuestion{
+    position: relative;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+}
+.icon-clock {
+    background: left center url('../public/assets/clock_icon.png') no-repeat ;
+    padding-left: 30px;
+}
+#time_view{
+    font-size: 20px;
+}
+#desClock{
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+#information{
+    height: 100px;
+}
+table.list{
+    border-collapse: collapse;
+    width: 100%;
+    empty-cells: show;
+    border: 1px solid #E0E0E0;
+    font-size: 14px;
+    line-height: 50px;
+}
+table.list td {
+    border-bottom: 1px solid #E0E0E0;
+    border-right: 1px solid #E0E0E0;
+    padding:5px
+}
+
+#submitButton {
+    height:50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    user-select: none;
+}
+
+
+#displayRes{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    z-index: 10;
+    width: 300px;
+    height: 300px;
+    background: #7fbaf4;
+    display: none;
+    justify-content:center;
+    align-items: center;
+    border-radius: 12px;
+}

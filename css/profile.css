@@ -1,0 +1,100 @@
+*,body{
+    font-family: "Quicksand", sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#main{
+    width:100%;
+    min-height: 100vh;
+    height:auto;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 50px 20px;
+    padding-top: 175px;
+}
+
+.profileCard{
+    width: 100%;
+    max-width: 700px;
+    min-height: 460px;
+    border-radius: 10px;
+    background: #d4aaff;
+    
+}
+.profileImg{
+    width: 150px;
+    height: 150px;
+    transform: translateY(-50%);/* translateY theo chieu doc */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    
+}
+.profileImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.profileInfomation{
+    margin-top: -35px;
+    text-align: center;
+    padding: 0 20px;
+    padding-bottom: 40px;
+}
+.profileName{
+    font-weight: 700;
+    font-size: 24px;
+    color: #f5a106d5;
+    margin-bottom: 15px;
+}
+.profileClass{
+    font-size: 18px;
+    font-weight: 500;
+    color: #121a20d7;
+    margin-bottom: 15px;
+}
+.profileAddress{
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.profileDetail{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-top: 35px;
+    text-align: center;
+}
+.profileDetailItem{
+    padding: 10px 35px;
+    min-width: 150px;
+}
+.profileDetailTile{
+    font-weight: 700;
+    font-size: 27px;
+    color: #324e63;
+}
+.profileDetailTxt{
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+.profileIcon{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.profileIcon a img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
